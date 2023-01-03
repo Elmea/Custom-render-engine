@@ -1,0 +1,3 @@
+Debug file ( Debug.txt ) opened
+Ouga dans le fichier 1 OUGA 1.5 ouga
+Closing debug file...

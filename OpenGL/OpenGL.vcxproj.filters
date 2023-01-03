@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{9db1d74a-653f-403c-9106-bb0510a87c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Resources">
+      <UniqueIdentifier>{4d96be20-ecc3-4c5d-9a3d-c4bee5997b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{f8c0582f-69e4-4363-9a62-fb980abaf164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Resources">
+      <UniqueIdentifier>{56ab5322-a7c8-4574-8f35-dca827d51daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\LowRenderer">
+      <UniqueIdentifier>{b2e08af6-2c42-422a-8b7d-f0a6aba1ad17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\LowRenderer">
+      <UniqueIdentifier>{8bfb3a65-9232-4d92-8d8f-6eea87eacbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\External">
+      <UniqueIdentifier>{f9959de1-511e-41d2-a602-a10981ad6644}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\glad.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\App.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Debug.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\myMaths.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Model.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LowRenderer\Mesh.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Shader.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LowRenderer\Camera.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui_demo.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui_draw.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui_tables.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGUI\imgui_widgets.cpp">
+      <Filter>Fichiers sources\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Texture.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LowRenderer\Light.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LowRenderer\GameObject.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Scene.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Scene1.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Scene2.cpp">
+      <Filter>Fichiers sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\ThreadManager.cpp">
+      <Filter>Fichiers sources\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\RessourceManager.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Model.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\App.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Debug.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\myMaths.hpp">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resources.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Mesh.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\IncludeGL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Shader.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Camera.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Texture.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Light.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameObject.h">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scene.h">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scene1.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scene2.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ThreadManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Headers\ResourceManager.inl">
+      <Filter>Fichiers d%27en-tête\Resources</Filter>
+    </None>
+    <None Include="Resources\Shaders\fragmentShader.glsl">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Shaders\vertexShader.glsl">
+      <Filter>Fichiers de ressources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
